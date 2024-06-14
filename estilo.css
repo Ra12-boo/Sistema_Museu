@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+.corpo{
+    height: 630px;
+    background-image: url(img/wp1953448.jpg);
+}
+
+.barra-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(8, 4, 4, 0.144);
+    color: rgb(45, 42, 42);
+    padding: 15px;   
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 16px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav div ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.nav .div-imag{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nav .div-imag span{
+    border-radius: 12px;
+    background-color: rgb(228, 138, 138);
+    margin-right: 10px;
+}
+.nav div ul a{
+text-decoration: none;
+padding: 5px 20px;
+color: rgb(0, 0, 0);
+}
+.nav div ul a:hover{
+    border-bottom: solid rgb(6, 60, 21);
+}
+/*Fim do estilo para o header*/
+
+/*Corpo do site*/
+main{
+    height: 100%;
+}
+/* esta div é onde esta bem vindo*/
+main .div-cima,.agendamento{
+    padding: 150px;
+    text-align:end;
+}
+/*fim*/
+main .agendamento{
+    padding: 80px;
+    text-align: start;
+    width:400px;
+    height: 50%;
+}
+main .agendamento h1{
+    font-size: 20px;
+    color: rgba(232, 228, 228, 0.95);
+    cursor:default;   
+}
+main div h1{
+    font-size: 15px;
+    color: white;
+    cursor:default;
+}
+main div h1:hover{
+    color: #2ed639;
+}
+main .form h1:hover{
+    color: #2ed639;
+}
+main .agendamento h1:hover{
+    color: #263bdd11; 
+}
+button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background: none;
+    color: #4741033e;
+}
+footer .form{
+    padding: 70px;
+    text-align: center;
+    width: 800px;
+    height: 40px;
+}
+/*Estilo do formulario agenda*/
+.conteiner-input{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border: 1px solid  #6f6f6f;
+    background-color: rgba(35, 30, 30, 0.144);
+    outline: none;
+    padding: 3px 3px;
+    border-radius: 2px;
+    width: 100%;
+    margin-left: 4px;
+}
+label{
+        color: white;
+}
+/*Fim*/
+
+/*Programando o botão para chamar o formulario java script*/
+footer div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff3f3;
+  
+}
+main section{
+    padding: 50px;
+    width: 100%;
+    height: 400px;
+    margin: 10px;
+}
+#info{
+    text-align:justify;
+}
+#info h1{
+    color: #0b3e8b;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.biografia{
+    margin: 10px;
+    text-align: justify;
+    padding: 80px;
+    color: #0b3e8b;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#rodape{
+    padding: 50px;
+    color: #0b3e8b;
+    background-color: #fff3f3;
+    height: 50px;
+  
+}
+#rodape p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: #0b3e8b;
+
+    
+}
+/*login*/
+.login {
+    display: flex; flex-direction: row; justify-content: center; align-items: center;
+    margin:100px;
+}
+
+#form-cadastro {
+    border: 1px solid rgb(24, 30, 28);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+#form-cadastro h1 {
+    font-size: 20px;
+    border-bottom: 1px solid rgb(141, 141, 141);
+    padding-bottom: 10px;
+    color: #0b3e8b;
+}
+
+#form-cadastro form {
+    display: flex; flex-direction: column;
+    padding: 10px 0;
+}
+
+.container-input {
+    display: flex; flex-direction: column;
+    /* width: 400px; */
+    margin-bottom: 8px;
+}
+
+.container-input label {
+    color: #0b3e8b;
+    font-weight: bolder;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.container-input input,
+.container-input select {
+    padding: 8px 10px;
+    outline: none;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+}
+
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    background-color: #0b3e8b;
+    color: rgb(241, 241, 241);
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 14px;
+    padding: 8px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(88, 179, 141);
+}
+
+
+
+
+
+
+
+
+
+
+
+
